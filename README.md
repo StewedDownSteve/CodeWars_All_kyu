@@ -1,4 +1,3 @@
-@@ -1,24 +1,24 @@
 # CodeWars_All_kyu
 A collection of Code Wars challenges. All different kyus. I average around 5-7 challenges weekly.
 
