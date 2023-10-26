@@ -13,3 +13,11 @@
 // "1"    =>  NULL
 // "1,2"  =>  NULL
 
+function array(string) {
+    return string.split(',').slice(1,-1).join(" ")|| null;
+  }
+
+//   split the string, split(',');
+// slice(1,-1) will remove the first and last letter
+// join(" ") will join it all together
+// otherwise return null
