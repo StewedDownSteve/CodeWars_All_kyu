@@ -15,19 +15,10 @@ function isIsogram(str){
 
 
 
-   function isIsogram1(str1){
-	return new Set(str1.toUpperCase()).size == str1.length;
-}
+   
 
 
-function isIsogram2(str2){
-    // var i, j;
-    str2 = str2.toLowerCase();
-    for(i = 0; i < str2.length; ++i)
-      for(j = i + 1; j < str2.length; ++j)
-        if(str2[i] === str2[j])
-          return false;
-    return true;
-  }
+
+  
 
 
