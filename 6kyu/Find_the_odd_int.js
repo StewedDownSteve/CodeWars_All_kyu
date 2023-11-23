@@ -18,9 +18,6 @@ function findOdd(arr) {
     }
     return -1;
   }
-
-
-
 //   first loop through arr
 // inside the for loop, create a new variable 'count'
 // inside count..
@@ -29,3 +26,6 @@ function findOdd(arr) {
 // use if statement to check if 'count' is an odd number
 // if it is the loop is stopped by returning the number
 // if the loop finishes, return -1, says there no number with an odd number of duplicates
+
+// Top answer in codewars
+const findOddA = (xs) => xs.reduce((a, b) => a ^ b);
