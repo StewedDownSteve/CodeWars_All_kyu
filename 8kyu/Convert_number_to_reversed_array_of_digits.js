@@ -12,7 +12,6 @@ function digitize(n) {
   }
 
 //   best practice from Codwars below:
-
 function digitize1(n1) {
     return String(n1).split('').map(Number).reverse()
   }
