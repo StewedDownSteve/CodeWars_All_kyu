@@ -2,9 +2,9 @@
 // You may assume that each input would have exactly one solution, and oyu may not use the same elment twice.
 // You can return the answer in any order.
 
-function findIndices(arr,target){
+function findIndices(arr, target){
     // grab a num
-    for(let i = 0; i , arr.length; i++){
+    for(let i = 0; i < arr.length; i++){
         // comparing outside num to internal nums
         for(let k = 0; k < arr.length; k++){
             if(arr[i] + arr[k] === target){
