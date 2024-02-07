@@ -13,3 +13,6 @@ const plus = a => b => a + b
 const minus = a => b => b - a
 const dividedBy = a => b => Math.floor(b / a)
 const times = a => b => a * b
+
+
+// Alll arrow functions baby!
