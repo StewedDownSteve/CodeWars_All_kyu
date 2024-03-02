@@ -21,3 +21,5 @@ function gooseFilter (birds) {
 
 //   use filter() to test each element of the arr
 // Set it to pull ONLY items that are not included in geese. Instead of trying to remove the 'geese' we are pulling everything that isnt 'geese'. Leaving behind the 'geese'
+
+// Did this one over again and it stumped me
