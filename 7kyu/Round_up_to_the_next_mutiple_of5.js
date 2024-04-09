@@ -22,4 +22,4 @@ function roundToNext5(n){
         //  number div by 5, round up, times by 5
         return Math.ceil( n / 5) * 5
     }
-]
+}
